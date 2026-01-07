@@ -39,11 +39,12 @@ ports_description:
   1984/tcp: go2rtc API
 host_network: false
 devices:
-  - /dev/dri
+  - /dev/dri/renderD129
   - /dev/apex_0
   - /dev/apex_1
   - /dev/apex_2
   - /dev/apex_3
+  - /dev/dri/card1
   - /dev/vchiq
   - /dev/video10
   - /dev/video0
